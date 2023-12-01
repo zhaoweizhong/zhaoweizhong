@@ -18,7 +18,6 @@ jobs:
           config_timezone: Asia/Tokyo
           plugin_languages: yes
           plugin_languages_details: percentage
-          plugin_languages_indepth: yes
           plugin_followup: yes
           plugin_notable: yes
           plugin_notable_types: commit, pull_request, issue
