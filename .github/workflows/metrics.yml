@@ -1,6 +1,6 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 0 * * *"}]
+  schedule: [{cron: "0 15 * * *"}] # UTC 15:00 = JST 0:00
   workflow_dispatch:
   push: {branches: ["main"]}
 jobs:
